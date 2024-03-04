@@ -27,6 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn("font-IBMPlex antialiased", IBMPlex)}>
         {children}
+        
       </body>
     </html>
     </ClerkProvider>
